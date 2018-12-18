@@ -17,13 +17,13 @@ result = None
 if oper in list(calculator.keys()):
     result = calculator[oper](x,y) # calculator[oper] обращаемся к значению словаря по заданному ключу и вызываем ф-ию def
 
-# if result is not None:
-#     print(result)
-# else:
-#     print('None a number')
+if result is not None:
+    print(result)
+else:
+    print('None a number')
 
-try:
-    if result is not None:
-        print(result)
-except Exception as e:
-    print(e)
+# try:
+#     if result is not None:
+#         print(result)
+# except Exception as e:
+#     print(e)
